@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openssl-cli", "openssl-cli.vcproj", "{D8042DEE-49DF-005D-0E95-93F43C6A087D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{31C391B5-9C2D-2E5F-7E2A-97132AF41DF6} = {31C391B5-9C2D-2E5F-7E2A-97132AF41DF6}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openssl-fipsmodule", "openssl-fipsmodule.vcproj", "{F3B2A321-BD56-5471-8AB9-1E5E3A151F11}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D8042DEE-49DF-005D-0E95-93F43C6A087D} = {D8042DEE-49DF-005D-0E95-93F43C6A087D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openssl", "openssl.vcproj", "{31C391B5-9C2D-2E5F-7E2A-97132AF41DF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31C391B5-9C2D-2E5F-7E2A-97132AF41DF6}.Debug|x64.ActiveCfg = Debug|x64
+		{31C391B5-9C2D-2E5F-7E2A-97132AF41DF6}.Debug|x64.Build.0 = Debug|x64
+		{31C391B5-9C2D-2E5F-7E2A-97132AF41DF6}.Release|x64.ActiveCfg = Release|x64
+		{31C391B5-9C2D-2E5F-7E2A-97132AF41DF6}.Release|x64.Build.0 = Release|x64
+		{D8042DEE-49DF-005D-0E95-93F43C6A087D}.Debug|x64.ActiveCfg = Debug|x64
+		{D8042DEE-49DF-005D-0E95-93F43C6A087D}.Debug|x64.Build.0 = Debug|x64
+		{D8042DEE-49DF-005D-0E95-93F43C6A087D}.Release|x64.ActiveCfg = Release|x64
+		{D8042DEE-49DF-005D-0E95-93F43C6A087D}.Release|x64.Build.0 = Release|x64
+		{F3B2A321-BD56-5471-8AB9-1E5E3A151F11}.Debug|x64.ActiveCfg = Debug|x64
+		{F3B2A321-BD56-5471-8AB9-1E5E3A151F11}.Debug|x64.Build.0 = Debug|x64
+		{F3B2A321-BD56-5471-8AB9-1E5E3A151F11}.Release|x64.ActiveCfg = Release|x64
+		{F3B2A321-BD56-5471-8AB9-1E5E3A151F11}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
