@@ -1,0 +1,56 @@
+{
+	"last_version": 2079,
+	"new_window_session":
+	{
+		"window_height": 651.2,
+		"window_width": 1201.6
+	},
+	"next_update_check": 1669446909,
+	"project_dir": "/C/Users/test/OneDrive/Desktop",
+	"recent":
+	[
+		{
+			"locations_tab_selected": false,
+			"path": "/C/Users/test/OneDrive/Documents/sublime",
+			"previous_commit_messages":
+			[
+				"gitinit"
+			],
+			"search":
+			{
+				"history":
+				[
+				]
+			},
+			"show_untracked_files": true,
+			"side_bar_visible": true,
+			"table_of_contents_tab_selected": false,
+			"table_of_contents_tree_mode": false
+		}
+	],
+	"select_repository":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"window_positions":
+	{
+		"/C/Users/test/OneDrive/Documents/sublime": "0,0,1,-1,-1,-1,-1,732,37,31,1238,f1dbbfde1538364e91873a1136efe818"
+	},
+	"windows":
+	[
+		{
+			"tabs":
+			[
+				{
+					"path": "/C/Users/test/OneDrive/Documents/sublime",
+					"selected": true
+				}
+			]
+		}
+	]
+}
