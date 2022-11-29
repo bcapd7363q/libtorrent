@@ -10,7 +10,6 @@ import traceback
 
 from socketserver import StreamRequestHandler, ThreadingTCPServer
 
-
 def debug(s):
     print('socks.py: ', s)
     sys.stdout.flush()
